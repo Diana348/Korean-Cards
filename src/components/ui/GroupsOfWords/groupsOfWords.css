@@ -1,0 +1,33 @@
+.groupsOfWords-container {
+    width: 100%;
+    min-height: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+
+.groupsOfWords-cart {
+    width: 28%;
+    font-size: 28px;
+    font-weight: 900;
+    color: #225e7e;
+    background-color: #8ab2c7;
+    border-radius: 0.75em;
+}
+
+.groupsOfWords-cart:nth-child(n+4) {
+    margin: 10px 0;
+}
+
+.groupsOfWords-cartTitle {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.groupsOfWords-cart:hover {
+    color: #377292;
+}

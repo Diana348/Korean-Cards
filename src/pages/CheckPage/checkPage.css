@@ -1,0 +1,110 @@
+.container {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-style: double 1px;
+    text-align: center;
+}
+
+.checkPage {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    color: #015786;
+}
+
+.flip-card {
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontComponent,
+.backComponent {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75em;
+}
+
+.frontComponent {
+    background-color: lightblue;
+}
+
+.backComponent {
+    background-color: white;
+}
+
+.flip-card-translation,
+.flip-card-word {
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.flip-card-transcription {
+    font-style: italic;
+}
+
+.arrowLeft,
+.arrowRight {
+    width: 70px;
+    height: 70px;
+    color: #015786;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+    color: rgba(1, 87, 134, 0.5)
+}
+
+.checkPageButton {
+    height: 150px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #FEC13F;
+    border: 2px solid #FEC13F;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+}
+
+.button::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e59d00;
+    border-radius: inherit;
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.button:hover {
+    background: #e59d00;
+    border: 2px solid #FEC13F;
+    transform: translate(0, 0.25em);
+}
