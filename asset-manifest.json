@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.e796630a.css",
-    "main.js": "./static/js/main.c995e418.js",
-    "static/media/family.svg": "./static/media/family.ec3f10424d752a59ecea977db92ab889.svg",
-    "static/media/body.svg": "./static/media/body.23da4da4cd924df6241f5cae5a9512b3.svg",
-    "static/media/weather.svg": "./static/media/weather.b2ba259d7881c9cb62c8ca28f97966c3.svg",
-    "index.html": "./index.html",
-    "main.e796630a.css.map": "./static/css/main.e796630a.css.map",
-    "main.c995e418.js.map": "./static/js/main.c995e418.js.map"
+    "main.css": "/Korean-Cards/static/css/main.e796630a.css",
+    "main.js": "/Korean-Cards/static/js/main.f1f3494a.js",
+    "static/media/family.svg": "/Korean-Cards/static/media/family.ec3f10424d752a59ecea977db92ab889.svg",
+    "static/media/body.svg": "/Korean-Cards/static/media/body.23da4da4cd924df6241f5cae5a9512b3.svg",
+    "static/media/weather.svg": "/Korean-Cards/static/media/weather.b2ba259d7881c9cb62c8ca28f97966c3.svg",
+    "index.html": "/Korean-Cards/index.html",
+    "main.e796630a.css.map": "/Korean-Cards/static/css/main.e796630a.css.map",
+    "main.f1f3494a.js.map": "/Korean-Cards/static/js/main.f1f3494a.js.map"
   },
   "entrypoints": [
     "static/css/main.e796630a.css",
-    "static/js/main.c995e418.js"
+    "static/js/main.f1f3494a.js"
   ]
 }
