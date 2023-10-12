@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Korean-Cards/static/css/main.e796630a.css",
-    "main.js": "/Korean-Cards/static/js/main.fd87082b.js",
+    "main.js": "/Korean-Cards/static/js/main.57d22533.js",
     "static/media/family.svg": "/Korean-Cards/static/media/family.ec3f10424d752a59ecea977db92ab889.svg",
     "static/media/body.svg": "/Korean-Cards/static/media/body.23da4da4cd924df6241f5cae5a9512b3.svg",
     "static/media/weather.svg": "/Korean-Cards/static/media/weather.b2ba259d7881c9cb62c8ca28f97966c3.svg",
     "index.html": "/Korean-Cards/index.html",
     "main.e796630a.css.map": "/Korean-Cards/static/css/main.e796630a.css.map",
-    "main.fd87082b.js.map": "/Korean-Cards/static/js/main.fd87082b.js.map"
+    "main.57d22533.js.map": "/Korean-Cards/static/js/main.57d22533.js.map"
   },
   "entrypoints": [
     "static/css/main.e796630a.css",
-    "static/js/main.fd87082b.js"
+    "static/js/main.57d22533.js"
   ]
 }
